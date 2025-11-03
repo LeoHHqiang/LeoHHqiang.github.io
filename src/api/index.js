@@ -4,9 +4,12 @@
  */
 
 export * from './user'
+export * from './record'
+export * from './acceptHistory'
+export * from './template'
+export * from './moveApprove'
 // export * from './template'
 // export * from './supplier'
-// export * from './record'
 // export * from './download'
 // export * from './role'
 

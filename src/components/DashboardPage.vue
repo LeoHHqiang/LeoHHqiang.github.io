@@ -50,7 +50,7 @@ const activeMenu = ref('home')
 
 const menuItems = [
   { name: '首页', path: 'home', icon: 'fas fa-home' },
-  { name: '验收审批', path: 'accept-approve', icon: 'fas fa-clipboard-check' },
+  { name: '验收管理', path: 'accept-approve', icon: 'fas fa-clipboard-check' },
   { name: '移模审批', path: 'move-approve', icon: 'fas fa-exchange-alt' },
   { name: '模板管理', path: 'template', icon: 'fas fa-cube' },
   { name: '历史验收', path: 'accept-history', icon: 'fas fa-history' },
@@ -71,7 +71,7 @@ const currentPageIcon = computed(() => {
 // 动态组件映射
 const componentMap = {
   '首页': HomePage,
-  '验收审批': AcceptApprovePage,
+  '验收管理': AcceptApprovePage,
   '移模审批': MoveApprovePage,
   '模板管理': TemplatePage,
   '历史验收': AcceptHistoryPage,
